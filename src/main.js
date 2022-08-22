@@ -1,11 +1,13 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import VTypical from 'vue-typical';
 
-import './assets/main.css'
+import './assets/main.css';
+import './assets/style.css';
 
-const app = createApp(App)
+const app = createApp(App).use(VTypical)
 
-app.use(router)
+app.use(router);
 
-app.mount('#app')
+app.mount('#app');

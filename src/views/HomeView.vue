@@ -1,9 +1,15 @@
-<script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
+<script>
+import Profile from "../components/Profile.vue";
+export default {
+  name: "HomeView",
+  components: {
+    Profile,
+  },
+};
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="h-screen w-full flex justify-center items-center ">
+    <Profile />
+  </div>
 </template>

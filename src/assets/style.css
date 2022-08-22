@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "FiraCode-VF";
+    src: url("./font/FiraCode-VF.ttf");
+}
+
+
+.Fira {
+    font-family: "FiraCode-VF" !important;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
