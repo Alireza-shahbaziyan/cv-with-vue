@@ -16,16 +16,22 @@ export default {
     class="
       w-5/6
       lg:h-3/4
+      lg:w-11/12
       h-3/4
       flex flex-col
       lg:flex-row
       md:justify-center
       lg:items-center
       justify-between
-      border
+      md:border
+      lg:border-0
       p-1
       rounded-lg
-      border-primary
+      border-t-zinc-300
+      md:border-emerald-500
+      md:bg-zinc-900/[.7]
+      bg-zinc-900/[.5]
+      lg:bg-inherit
     "
   >
     <ProfileView class="lg:w-2/5 h-2/5" />

@@ -9,15 +9,15 @@
     </div>
     <!-- Name text -->
     <v-typical
-      class="blink Fira text-zinc-300 text-md md:text-2xl"
-      :steps="['Hello!👋', 1000, `Im ${UserName}`, 1000]"
+      class="blink Fira 	 text-zinc-300 text-md md:text-2xl"
+      :steps="['Hello!👋', 500, `Im ${UserName}`, 1000]"
       :loop="1"
       :wrapper="'h2'"
     ></v-typical>
     <!-- Job title text -->
     <v-typical
-      class="blink Fira text-primary text-sm md:text-xl"
-      :steps="['Frant-end :( !!', 1000, 'Front-end Developer', 1000]"
+      class="blink Fira  text-warning md:text-emerald-400 text-sm md:text-xl"
+      :steps="['Programer', 500, 'Front-end Developer', 1000]"
       :loop="1"
       :wrapper="'h2'"
     ></v-typical>
@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-        UserName:"Alireza shahbaziyan"
+        UserName:"Alireza Shahbaziyan"
     }
   },
 };
