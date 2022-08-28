@@ -26,12 +26,10 @@ export default {
       md:border
       lg:border-0
       p-1
-      rounded-lg
+      rounded-3xl
       border-t-zinc-300
       md:border-emerald-500
-      md:bg-zinc-900/[.7]
-      bg-zinc-900/[.5]
-      lg:bg-inherit
+      bg-zinc-900/[.4]
     "
   >
     <ProfileView class="lg:w-2/5 h-2/5" />
