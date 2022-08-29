@@ -9,7 +9,7 @@
     </div>
     <!-- Name text -->
     <v-typical
-      class="blink Fira 	 text-zinc-300 text-md md:text-2xl"
+      class="blink Fira text-zinc-300 text-md md:text-2xl"
       :steps="['Hello!👋', 500, `Im ${UserName}`, 1000]"
       :loop="1"
       :wrapper="'h2'"

@@ -5,8 +5,8 @@
       :key="item.title"
       class="text-gray-100 text-sm md:text-xl flex justify-between mt-4 mx-1"
     >
-      <div class="w-1/3">{{ item.title }}</div>
-      <div class="w-2/3 text-center">{{ item.result }}</div>
+      <div class="w-1/3  animate__animated animate__slideInLeft ">{{ item.title }}</div>
+      <div class="w-2/3 text-center animate__animated animate__slideInRight">{{ item.result }}</div>
     </div>
     
   </div>

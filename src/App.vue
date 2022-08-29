@@ -13,7 +13,7 @@ export default{
 </script>
 
 <template>
-  <div class=" h-screen  box-border m-0">
+  <div class=" h-screen overflow-hidden box-border m-0">
     <Navbar/>
     <RouterView />
   </div>
