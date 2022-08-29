@@ -16,7 +16,7 @@
     ></v-typical>
     <!-- Job title text -->
     <v-typical
-      class="blink Fira text-fuchsia-600 border-b	border-dashed text-sm md:text-xl"
+      class="blink Fira text-fuchsia-400 border-b	border-dashed text-sm md:text-xl"
       :steps="['Programer', 500, 'Front-end Developer', 1000]"
       :loop="1"
       :wrapper="'h2'"

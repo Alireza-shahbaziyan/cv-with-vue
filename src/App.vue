@@ -20,10 +20,16 @@ export default{
     
 </template>
 <style scoped>
+
 div{
-  background-image: url('./assets/images/back-lg2.jpg');
+  background-image: url('./assets/images/back-lg-11.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+@media only screen and (max-width: 768px) {
+    div{
+      background-image: url('./assets/images/back-sm-11.jpg');
+    }
 }
 </style>
